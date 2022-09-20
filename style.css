@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #2B2922;
+}
+nav{
+    position: relative;
+    margin-left: 40px;
+    margin-top:40px;
+}
+.logo{
+    position: absolute;
+    height: 40px;
+}
+
+.list{
+    position: absolute;
+    margin-left: 450px; 
+    margin-top: 20px;
+    font-size: 900;
+} 
+
+.list-item{
+    display: inline;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    color: #504E47;
+    
+}
+.active{
+    color: #ffffff;
+ }
+.button-small{
+ margin-left: 950px;
+ background-color: #2B2922;
+ padding: 15px 30px;
+ border-radius: 5px;
+ border-color: #968634 ;
+ color: #968634;
+}
+
+.hero{
+    margin-top: 100px;
+}
+
+.hero-heading{
+    position: absolute;
+    margin-left: 40px;
+    color: #ffffff;
+    width: 550px;
+    font-size: 80px;
+}
+.pragraph{
+    width: 550px;
+    font-size: 30px;
+    
+    position: relative;
+    padding: 80px;
+    margin-left: 550px;
+    color: #504E47;
+}
+.bottom{
+    position: relative;
+    margin-top: 40px;
+}
+.bottom > div > img{
+    width: 100vw;
+    overflow: hidden;
+    min-height:fit-content ;
+}
